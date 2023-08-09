@@ -1,0 +1,18 @@
+main{
+    display: flex;
+    table-layout: auto;
+    align-items: center;
+    justify-content:center;
+    padding: 10px 60px;
+}
+table{
+    table-layout: flex;
+    width: 50%;
+    height: 500px;
+}
+table td.white {
+    background-color: white;
+}
+table td.black {
+    background-color: rgb(172, 105, 50);
+}
